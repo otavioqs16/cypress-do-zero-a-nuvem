@@ -276,7 +276,7 @@ describe("Central de Atendimento ao Cliente TAT", () => {
     });
   });
 
-  it.only("DESAFIO: verifica existência do gato na aplicação", () => {
+  it("DESAFIO: verifica existência do gato na aplicação", () => {
     // Verifica a existência do gato no body da aplicação
     cy.request({
       method: "GET",
